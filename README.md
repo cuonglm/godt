@@ -20,7 +20,7 @@ go get -u github.com/Gnouc/godt
 
 #Usage
 ```sh
-import "github.com/Gnouc/godt
+import "github.com/Gnouc/godt"
 ```
 
 Example can be seen in `bin/docker-tags-v1`
