@@ -2,6 +2,8 @@
 
 godt -- Golang library for getting docker image tags
 
+[![Build Status](https://travis-ci.org/Gnouc/godt.svg?branch=master)](https://travis-ci.org/Gnouc/godt)
+
 #Why godt?
 
 At this time, there's no way to get image tags from docker client. We can use any HTTP client to get tags from docker hub:
