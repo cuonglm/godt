@@ -31,18 +31,16 @@ func main() {
 
 	defer resp.Body.Close()
 
-	if resp.StatusCode != 200 {
-		body, _ := ioutil.ReadAll(resp.Body)
+	body, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		panic(err.Error())
+	}
 
+	if resp.StatusCode != 200 {
 		var content errorResponse
 		_ = json.Unmarshal(body, &content)
 		fmt.Println(content.Error)
 		os.Exit(1)
-	}
-
-	body, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		panic(err.Error())
 	}
 
 	var tags []tag
