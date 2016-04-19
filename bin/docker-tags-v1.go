@@ -28,8 +28,9 @@ func main() {
 	c := godt.NewHTTPClient(nil)
 
 	resp, err := c.ListTags(image)
-
-	defer resp.Body.Close()
+	if resp != nil {
+		defer resp.Body.Close()
+	}
 
 	body, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
