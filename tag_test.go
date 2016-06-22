@@ -30,7 +30,7 @@ func TestListTags(t *testing.T) {
 
 	resp, err := client.ListTags(image)
 	if err != nil {
-		t.Fatalf("Do(): %v", err)
+		t.Fatalf("ListTags(): %v", err)
 	}
 
 	body, err := ioutil.ReadAll(resp.Body)

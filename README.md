@@ -1,6 +1,6 @@
-#godt - Golang Docker Tag
+#godt - Go Docker Tag
 
-godt -- Golang library for getting docker image tags
+godt -- Go library for getting docker image tags
 
 [![Build Status](https://travis-ci.org/Gnouc/godt.svg?branch=master)](https://travis-ci.org/Gnouc/godt)
 [![Go Report Card](https://goreportcard.com/badge/github.com/Gnouc/godt)](https://goreportcard.com/report/github.com/Gnouc/godt)
