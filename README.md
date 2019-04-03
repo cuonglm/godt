@@ -2,8 +2,8 @@
 
 godt -- Go library for getting docker image tags
 
-[![Build Status](https://travis-ci.org/Gnouc/godt.svg?branch=master)](https://travis-ci.org/Gnouc/godt)
-[![Go Report Card](https://goreportcard.com/badge/github.com/Gnouc/godt)](https://goreportcard.com/report/github.com/Gnouc/godt)
+[![Build Status](https://travis-ci.org/cuonglm/godt.svg?branch=master)](https://travis-ci.org/cuonglm/godt)
+[![Go Report Card](https://goreportcard.com/badge/github.com/cuonglm/godt)](https://goreportcard.com/report/github.com/cuonglm/godt)
 
 # Why godt?
 
@@ -16,12 +16,12 @@ It's too complicated from user perspective, so godt come in for simplification
 
 # Installation
 ```sh
-go get -u github.com/Gnouc/godt
+go get -u github.com/cuonglm/godt
 ```
 
 # Usage
 ```sh
-import "github.com/Gnouc/godt"
+import "github.com/cuonglm/godt"
 ```
 
 Example can be seen in `bin/docker-tags-v1`
@@ -59,4 +59,4 @@ Cuong Manh Le <cuong.manhle.vn@gmail.com>
 
 # License
 
-See [LICENSE](https://github.com/Gnouc/godt/blob/master/LICENSE)
+See [LICENSE](https://github.com/cuonglm/godt/blob/master/LICENSE)

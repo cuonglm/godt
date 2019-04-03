@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/Gnouc/godt"
+	"github.com/cuonglm/godt"
 )
 
 type tag struct {
